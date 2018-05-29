@@ -2903,28 +2903,28 @@ fieldset[disabled] a.btn {
 
 .btn-success {
   color: #fff;
-  background-color: #32B796;
-  border-color: #2da386; }
+  background-color: #06D6A0;
+  border-color: #05bd8d; }
   .btn-success:focus, .btn-success.focus {
     color: #fff;
-    background-color: #278f75;
-    border-color: #113f34; }
+    background-color: #05a47b;
+    border-color: #024131; }
   .btn-success:hover {
     color: #fff;
-    background-color: #278f75;
-    border-color: #1f735e; }
+    background-color: #05a47b;
+    border-color: #048261; }
   .btn-success:active, .btn-success.active,
   .open > .btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #278f75;
-    border-color: #1f735e; }
+    background-color: #05a47b;
+    border-color: #048261; }
     .btn-success:active:hover, .btn-success:active:focus, .btn-success:active.focus, .btn-success.active:hover, .btn-success.active:focus, .btn-success.active.focus,
     .open > .btn-success.dropdown-toggle:hover,
     .open > .btn-success.dropdown-toggle:focus,
     .open > .btn-success.dropdown-toggle.focus {
       color: #fff;
-      background-color: #1f735e;
-      border-color: #113f34; }
+      background-color: #048261;
+      border-color: #024131; }
   .btn-success:active, .btn-success.active,
   .open > .btn-success.dropdown-toggle {
     background-image: none; }
@@ -2932,10 +2932,10 @@ fieldset[disabled] a.btn {
   fieldset[disabled] .btn-success:hover,
   fieldset[disabled] .btn-success:focus,
   fieldset[disabled] .btn-success.focus {
-    background-color: #32B796;
-    border-color: #2da386; }
+    background-color: #06D6A0;
+    border-color: #05bd8d; }
   .btn-success .badge {
-    color: #32B796;
+    color: #06D6A0;
     background-color: #fff; }
 
 .btn-info {
@@ -4224,9 +4224,9 @@ a.label:hover, a.label:focus {
     background-color: #2381d0; }
 
 .label-success {
-  background-color: #32B796; }
+  background-color: #06D6A0; }
   .label-success[href]:hover, .label-success[href]:focus {
-    background-color: #278f75; }
+    background-color: #05a47b; }
 
 .label-info {
   background-color: #FDB631; }
@@ -4454,7 +4454,7 @@ a.thumbnail.active {
   animation: progress-bar-stripes 2s linear infinite; }
 
 .progress-bar-success {
-  background-color: #32B796; }
+  background-color: #06D6A0; }
   .progress-striped .progress-bar-success {
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
     background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
