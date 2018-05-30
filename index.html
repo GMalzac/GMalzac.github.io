@@ -8,7 +8,7 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="stylesheets/application-3d82a3e6.css" rel="stylesheet" />
+    <link href="stylesheets/application-09caa3c9.css" rel="stylesheet" />
     <link href="images/favicon-3a7d8b3f.png" rel="icon" type="image/png" />
     <script src="javascripts/application-923d8c5c.js"></script>
   </head>
@@ -169,10 +169,17 @@
       <div class="container">
         <div class="text-center">
           <h3>Contact</h3>
-          <p>You can contact me at <strong style="color:#e43c52">gregoire.malzac@gmail.com</strong></p>
+          <p>You can contact me at <strong style="color:#e43c52">gregoire.malzac@gmail.com</strong> or just use the form below.</p>
           <p>Please introduce yourself and your project (what is it? why is it for? what do you expect from me? timelines and budget details are also appreciated...).</p>
           <p>I'll get in touch with you to schedule a time to chat. You should expect to hear from me in a day or so.</p>
           <p>I live in London but I can work remotely if needed.</p>
+          <form action="https://formspree.io/gregoire.malzac@gmail.com"
+                method="POST">
+              <input type="email" name="email" placeholder="Your email" required>
+              <input type="text" name="name" placeholder="Your name" required="">
+              <textarea name="message" placeholder="Your message" required></textarea>
+              <input type="submit" value="Send" class="submit-form-button">
+          </form>
         </div>
       </div>
     </section>
@@ -202,6 +209,7 @@
 <script src="javascripts/smoothscroll-157b0edd.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3m4KAq8IYAlbgMTaT_8cv5k3fYR5RfO0&callback=initMap"
 async defer></script>
+
 
 <!--           <p>Please introduce yourself and your project, I'll get in touch with you to schedule a time to chat. You should expect to hear from me in a day or so.</p>
           <form action="/ma-page-de-traitement" method="post">
